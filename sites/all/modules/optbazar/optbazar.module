@@ -1,0 +1,26 @@
+<?php
+function optbazar_form_alter(&$form,$form_state,$form_id){
+//print_r($form_id);
+	switch($form_id){
+		case 'product_node_form':
+		$vid=1;
+                if (isset($form['taxonomy'][$vid])) {
+                  $tree = taxonomy_get_tree($vid);
+                  $parents = array();
+                //  $options[''] = $form['taxonomy'][$vid]['#options'][''];
+                      foreach ($tree as $term) {
+                        $obj = new stdClass();
+                        $obj->option[$term->tid] = $term->name;
+                                if($ptid = $term->parents[0]) {
+                                  $options[$parents[$ptid]][] = $obj;
+                                } else {
+                                  $parents[$term->tid] = $term->name;
+                                  $options[$term->name] = array();
+                                }
+                       
+                      }
+                  $form['taxonomy'][$vid]['#options'] = $options;
+                  }
+		break;
+	}
+}

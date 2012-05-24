@@ -1,0 +1,11 @@
+name = "OptBazar"
+description = "Custom Module"
+core = "6.x"
+
+; Information added by drupal.org packaging script on 2011-10-20
+version = "6.x-2.3"
+core = "6.x"
+project = "IWW"
+package = "IWW"
+datestamp = "1319104233"
+

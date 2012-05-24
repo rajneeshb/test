@@ -1,0 +1,66 @@
+*, html{margin:0; padding:0; border:0;}
+
+body{background:#f4f4f4 url(../images/bodyBg.png) repeat-x top left; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#000;}
+h2{font:bold 13px "Trebuchet MS", Arial, Helvetica, sans-serif;}
+.cl{clear:both; font-size:1px; line-height:1px; height:1px;}
+
+.OuterDiv{width:980px; padding:0; margin:0 auto;}
+
+.Header{margin-bottom:10px;}
+.Header .logo{float:left; margin:12px 0; display:block;}
+.Header .RightNav{float:right; font:normal 13px Calibri; color:#999;}
+.Header .RightNav a{color:#999; padding:0 8px; text-decoration:none; line-height:46px;}
+.Header .RightNav a:hover{text-decoration:underline; color:#eee;}
+
+.TopNav{background:url(../images/TopNavBg.png) repeat-x center left; height:37px; line-height:37px; display:block; margin-bottom:10px;}
+.TopNav ul li{list-style-type:none; float:left; display:block; border-right:solid 1px #fff; font:bold 13px/37px "Trebuchet MS", Arial, Helvetica, sans-serif;}
+.TopNav ul li a{color:#fff; text-decoration:none; padding:0 15px; display:block;}
+.TopNav ul li a:hover, .TopNav ul li a.Act{background:#000; text-decoration:none;}
+
+.SlideShow{margin-bottom:10px; border:solid 1px #c4c4c4; height:354px; overflow:hidden;}
+.aviaslider{height:354px; width:978px; overflow:hidden; position:relative; text-align:center;}
+.aviaslider li, .aviaslider .featured{display:block; width:978px; height:354px; position:absolute; top:0; left:0; z-index:1;}
+.js_active .aviaslider li, .js_active .aviaslider .featured{display:none;}
+.aviaslider img, .aviaslider a img, .aviaslider a{border:none; text-decoration:none;}
+.slidecontrolls{margin:0; position:relative; top:-25px; float:left; margin-left:1%; z-index:1000;}
+.slidecontrolls a{height:20px; width:18px; display:block; cursor: pointer; background:transparent url(../images/controlls.png) center bottom no-repeat; float:left; outline:none;}
+.slidecontrolls a:hover, .slidecontrolls .active_item{background: transparent url(../images/controlls.png) center top no-repeat;}
+.feature_excerpt{position:absolute; display:block; bottom:0; left:0; z-index:2; padding:0; cursor:pointer; background:#000; color:#fff;}
+.feature_excerpt strong{display:block; font-size:15px; padding-bottom:0;}
+
+.LeftPanel{float:left; width:150px; margin-right:8px;}
+.LeftPanel .WhyBox{background:#fff; margin-bottom:8px;}
+.LeftPanel .WhyBox h2{background:url(../images/LeftH2Bg.png) no-repeat left center; height:33px; line-height:33px; color:#000; padding-left:10px;}
+.LeftPanel .WhyBox ul{border:solid 1px #e2dede; border-top-width:0; margin:0;}
+.LeftPanel .WhyBox ul li{list-style-type:none; display:block; background:url(../images/yesIcon.png) no-repeat 10px 8px; padding:5px 5px 5px 25px;}  
+.LeftPanel .WhyBox ul li a{display:block; font-size:11px; color:#939393; text-decoration:none;}
+.LeftPanel .WhyBox ul li a:hover{color:#444; text-decoration:underline;}
+
+.LeftPanel .Call{background:#fff; border:solid 1px #e2dede; margin-bottom:8px; text-align:center; padding:10px 0;}
+
+.RightPanel{float:left; width:822px; overflow:hidden; display:block;}
+.RightPanel .Box{margin-bottom:8px;}
+.RightPanel .Box h2{background:url(../images/RightH2Bg.png) no-repeat left center; height:33px; line-height:33px; color:#000; padding-left:10px;}
+.RightPanel .Box h2 span{float:right; padding-right:10px; font:bold 13px/33px Calibri;}
+.RightPanel .Box h2 span a{color:#006ecc; text-decoration:none;}
+.RightPanel .Box h2 span a:hover{text-decoration:underline;}
+.RightPanel .Box ul{border:solid 1px #e2dede; border-top-width:0; margin:0; background:#fff;}
+.RightPanel .Box ul li{float:left; list-style-type:none; border-right:solid 1px #e2dede; padding:10px; width:252px;}
+.RightPanel .Box ul li.RightBor{border-right-width:0;}
+.RightPanel .Box .Col{font-size:11px; color:#000;}
+.RightPanel .Box .Col a{color:#058dcd; text-decoration:none;}
+.RightPanel .Box .Col a:hover{text-decoration:underline;}
+.RightPanel .Box .Col span a{color:#ff6600; text-decoration:none;}
+.RightPanel .Box .SunPic{text-align:center; padding:10px 0; overflow:hidden; min-height:144px;}
+.RightPanel .Box .Ti{display:block; font-weight:bold; text-transform:uppercase; color:#000;}
+.RightPanel .Box .Ti span{float:right; color:#ff0000;}
+.RightPanel .Box .ModNo{display:block; margin-bottom:10px;}
+.RightPanel .Box .Bot{margin-top:20px;}
+
+.Footer{border-top:solid 1px #dbdbdb; padding:20px 0 10px 0;}
+.Footer ul.BotNav{float:left; width:220px; margin-left:10px;}
+.Footer ul.BotNav li{list-style-type:none; background:url(../images/RoundIcon.png) no-repeat left 8px; padding-left:15px; line-height:20px;}
+.Footer ul.BotNav li a{text-decoration:none; color:#626060;}
+.Footer ul.BotNav li a:hover{text-decoration:underline; color:#444;}
+.Footer .Copy{float:right; color:#626060; margin-right:10px;}
+

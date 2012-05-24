@@ -1,0 +1,164 @@
+<?php
+?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php print $language->language ?>" lang="<?php print $language->language ?>" dir="<?php print $language->dir ?>">
+  <head>
+    <?php print $head ?>
+    <title><?php print $head_title ?></title>
+    <?php print $styles ?>
+    <?php print $scripts ?>
+   
+  </head>
+  <body>
+<div class="OuterDiv">
+	<div class="Header">
+   	  <div class="logo"><a href="javascript:;"><img src="images/logo.png" alt="logo" /></a></div>
+        <div class="RightNav"><a href="javascript:;">My Account</a>   |   <a href="javascript:;">Register/Login</a>   |   <a href="javascript:;">Cart(0)</a></div>
+    <div class="cl"></div>
+    </div>
+  <div class="TopNav">
+    	<ul>
+       	  <li><a href="javascript:;" class="Act">Sunglasses</a></li>
+          <li><a href="javascript:;">EyeGlasses</a></li>
+          <li><a href="javascript:;">Contact Lenses</a></li>
+          <li><a href="javascript:;">Help</a></li>
+        </ul>
+  </div>
+    <div class="SlideShow">
+    	<ul class="aviaslider" id="fullwidth-fade-slider">
+        	<li><img src="images/slide1.jpg" width="978" height="354" /></li>
+            <li><img src="images/slide1.jpg" width="978" height="354" /></li>
+            <li><img src="images/slide1.jpg" width="978" height="354" /></li>
+            <li><img src="images/slide1.jpg" width="978" height="354" /></li>
+        </ul>
+    </div>
+    <div class="LeftPanel">
+<div class="WhyBox">
+        	<h2>Why Choose Us?</h2>
+<ul>
+            	<li>Free Home Delivery <a href="javascript:;">All over India</a></li>
+                <li>Free Home Delivery <a href="javascript:;">All over India</a></li>
+                <li>Free Home Delivery <a href="javascript:;">All over India</a></li>
+                <li>Free Home Delivery <a href="javascript:;">All over India</a></li>
+                <li>Free Home Delivery <a href="javascript:;">All over India</a></li>
+                <li>Free Home Delivery <a href="javascript:;">All over India</a></li>
+                <li>Free Home Delivery <a href="javascript:;">All over India</a></li>
+                <li>Free Home Delivery <a href="javascript:;">All over India</a></li>
+                <li>Free Home Delivery <a href="javascript:;">All over India</a></li>
+            <li>Free Home Delivery <a href="javascript:;">All over India</a></li>
+            </ul>
+        </div>
+        <div class="Call"><img src="images/CallPic.jpg"/></div>
+        <div class="Call"><img src="images/CardPic.jpg"/></div>
+    </div>
+    <div class="RightPanel">
+    <div class="Box">
+        	<h2>Sunglasses <span><a href="javascript:;">View all</a></span></h2>
+            <ul>
+            	<li>
+                	<div class="Col"><a href="javascript:;">2 Colors</a> | <span><a href="javascript:;">Medium</a></span></div>
+                    <div class="SunPic"><img src="images/sunPic.jpg" width="231" height="124" /></div>
+                  <div class="Ti">Sundrive <span>INR 00.00</span></div>
+                  <div class="ModNo">M-1005</div>
+                    <div class="Bot"><a href="javascript:;"><img src="images/AddBot.png" width="89" height="25" /></a> <a href="javascript:;"><img src="images/DetBot.png" width="53" height="25" /></a></div>
+              </li>
+                <li>
+                	<div class="Col"><a href="javascript:;">2 Colors</a> | <span><a href="javascript:;">Medium</a></span></div>
+                    <div class="SunPic"><img src="images/sunPic.jpg" width="231" height="124" /></div>
+                  <div class="Ti">Sundrive <span>INR 00.00</span></div>
+                  <div class="ModNo">M-1005</div>
+                    <div class="Bot"><a href="javascript:;"><img src="images/AddBot.png" width="89" height="25" /></a> <a href="javascript:;"><img src="images/DetBot.png" width="53" height="25" /></a></div>
+                </li>
+                <li class="RightBor">
+                	<div class="Col"><a href="javascript:;">2 Colors</a> | <span><a href="javascript:;">Medium</a></span></div>
+                    <div class="SunPic"><img src="images/sunPic.jpg" width="231" height="124" /></div>
+                  <div class="Ti">Sundrive <span>INR 00.00</span></div>
+                  <div class="ModNo">M-1005</div>
+                    <div class="Bot"><a href="javascript:;"><img src="images/AddBot.png" width="89" height="25" /></a> <a href="javascript:;"><img src="images/DetBot.png" width="53" height="25" /></a></div>
+                </li>
+                <div class="cl"></div>   
+            </ul>
+      </div>
+      <div class="Box">
+        	<h2>Eyeglasses <span><a href="javascript:;">View all</a></span></h2>
+            <ul>
+            	<li>
+                	<div class="Col"><a href="javascript:;">2 Colors</a> | <span><a href="javascript:;">Medium</a></span></div>
+                    <div class="SunPic"><img src="images/sunPic.jpg" width="231" height="124" /></div>
+                  <div class="Ti">Sundrive <span>INR 00.00</span></div>
+                  <div class="ModNo">M-1005</div>
+                    <div class="Bot"><a href="javascript:;"><img src="images/AddBot.png" width="89" height="25" /></a> <a href="javascript:;"><img src="images/DetBot.png" width="53" height="25" /></a></div>
+              </li>
+                <li>
+                	<div class="Col"><a href="javascript:;">2 Colors</a> | <span><a href="javascript:;">Medium</a></span></div>
+                    <div class="SunPic"><img src="images/sunPic.jpg" width="231" height="124" /></div>
+                  <div class="Ti">Sundrive <span>INR 00.00</span></div>
+                  <div class="ModNo">M-1005</div>
+                    <div class="Bot"><a href="javascript:;"><img src="images/AddBot.png" width="89" height="25" /></a> <a href="javascript:;"><img src="images/DetBot.png" width="53" height="25" /></a></div>
+                </li>
+                <li class="RightBor">
+                	<div class="Col"><a href="javascript:;">2 Colors</a> | <span><a href="javascript:;">Medium</a></span></div>
+                    <div class="SunPic"><img src="images/sunPic.jpg" width="231" height="124" /></div>
+                  <div class="Ti">Sundrive <span>INR 00.00</span></div>
+                  <div class="ModNo">M-1005</div>
+                    <div class="Bot"><a href="javascript:;"><img src="images/AddBot.png" width="89" height="25" /></a> <a href="javascript:;"><img src="images/DetBot.png" width="53" height="25" /></a></div>
+                </li>
+                <div class="cl"></div>   
+            </ul>
+      </div>
+      <div class="Box">
+        	<h2>Contact Lenses <span><a href="javascript:;">View all</a></span></h2>
+            <ul>
+            	<li>
+                	<div class="Col"><a href="javascript:;">2 Colors</a> | <span><a href="javascript:;">Medium</a></span></div>
+                    <div class="SunPic"><img src="images/sunPic.jpg" width="231" height="124" /></div>
+                  <div class="Ti">Sundrive <span>INR 00.00</span></div>
+                  <div class="ModNo">M-1005</div>
+                    <div class="Bot"><a href="javascript:;"><img src="images/AddBot.png" width="89" height="25" /></a> <a href="javascript:;"><img src="images/DetBot.png" width="53" height="25" /></a></div>
+              </li>
+                <li>
+                	<div class="Col"><a href="javascript:;">2 Colors</a> | <span><a href="javascript:;">Medium</a></span></div>
+                    <div class="SunPic"><img src="images/sunPic.jpg" width="231" height="124" /></div>
+                  <div class="Ti">Sundrive <span>INR 00.00</span></div>
+                  <div class="ModNo">M-1005</div>
+                    <div class="Bot"><a href="javascript:;"><img src="images/AddBot.png" width="89" height="25" /></a> <a href="javascript:;"><img src="images/DetBot.png" width="53" height="25" /></a></div>
+                </li>
+                <li class="RightBor">
+                	<div class="Col"><a href="javascript:;">2 Colors</a> | <span><a href="javascript:;">Medium</a></span></div>
+                    <div class="SunPic"><img src="images/sunPic.jpg" width="231" height="124" /></div>
+                  <div class="Ti">Sundrive <span>INR 00.00</span></div>
+                  <div class="ModNo">M-1005</div>
+                    <div class="Bot"><a href="javascript:;"><img src="images/AddBot.png" width="89" height="25" /></a> <a href="javascript:;"><img src="images/DetBot.png" width="53" height="25" /></a></div>
+                </li>
+                <div class="cl"></div>   
+            </ul>
+      </div>
+    </div>
+    <div class="cl"></div>
+    <div class="Footer">
+    	<ul class="BotNav">
+        	<li><a href="javascript:;">About Us</a></li>
+            <li><a href="javascript:;">Delivery information</a></li>
+            <li><a href="javascript:;">Privacy Policy</a></li>
+            <li><a href="javascript:;">Terms & Conditions</a></li>
+        </ul>
+        <ul class="BotNav">
+        	<li><a href="javascript:;">Contact Us</a></li>
+            <li><a href="javascript:;">Returns</a></li>
+            <li><a href="javascript:;">Site Map</a></li>
+        </ul>
+        <ul class="BotNav">
+        	<li><a href="javascript:;">My Account</a></li>
+            <li><a href="javascript:;">Order History</a></li>
+            <li><a href="javascript:;">Wish List</a></li>
+        </ul>
+		<div class="Copy">Lenses Cart &copy; 2012</div>
+        <div class="cl"></div>
+    </div>
+</div>
+
+<?php print $closure ?>
+</body>
+
+  
+</html>
