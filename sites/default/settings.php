@@ -89,7 +89,6 @@
  *   $db_url = 'pgsql://username:password@localhost/databasename';
  */
 $db_url = 'mysqli://root:123@localhost/drupal-6.25';
-$db_prefix = '';
 
 /**
  * Database default collation.
